@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-base_dir = r"cards"
+base_dir = r"custom"
 columns_to_drop = ['_airbyte_ab_id', '_airbyte_emitted_at', 'source_file_path', '_airbyte_additional_properties']
 
 print("Script started.")
