@@ -2,11 +2,10 @@ import os
 import shutil
 import nbformat as nbf
 
-# Set your target directory where the Excel files are located
+
 directory = r"custom"
 
 
-# Loop through all files in the directory
 for filename in os.listdir(directory):
     if filename.lower().endswith(".xlsx"):
         file_path = os.path.join(directory, filename)
